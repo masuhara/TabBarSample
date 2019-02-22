@@ -15,6 +15,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    @IBAction func showSampleViewController() {
+        let storyboard = UIStoryboard(name: "Sample", bundle: Bundle.main)
+        
+        // 注意：Sample.storyboard上のSampleViewController画面の設定で予めStoryboardIDを付与しておく
+        let sampleViewController = storyboard.instantiateViewController(withIdentifier: "SampleViewController") as! SampleViewController
+        self.tabBarController?.present(sampleViewController, animated: true, completion: nil)
+    }
 
 }
 

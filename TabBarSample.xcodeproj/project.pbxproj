@@ -14,6 +14,8 @@
 		7A6808BC221FFFF1004FEADC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A6808BA221FFFF1004FEADC /* LaunchScreen.storyboard */; };
 		7A6808C7221FFFF1004FEADC /* TabBarSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6808C6221FFFF1004FEADC /* TabBarSampleTests.swift */; };
 		7A6808D2221FFFF1004FEADC /* TabBarSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6808D1221FFFF1004FEADC /* TabBarSampleUITests.swift */; };
+		7A6808E02220000D004FEADC /* Sample.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A6808DF2220000D004FEADC /* Sample.storyboard */; };
+		7A6808E22220002B004FEADC /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6808E12220002B004FEADC /* SampleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		7A6808CD221FFFF1004FEADC /* TabBarSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A6808D1221FFFF1004FEADC /* TabBarSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarSampleUITests.swift; sourceTree = "<group>"; };
 		7A6808D3221FFFF1004FEADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A6808DF2220000D004FEADC /* Sample.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Sample.storyboard; sourceTree = "<group>"; };
+		7A6808E12220002B004FEADC /* SampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				7A6808B1221FFFEF004FEADC /* AppDelegate.swift */,
 				7A6808B3221FFFEF004FEADC /* ViewController.swift */,
 				7A6808B5221FFFEF004FEADC /* Main.storyboard */,
+				7A6808DF2220000D004FEADC /* Sample.storyboard */,
+				7A6808E12220002B004FEADC /* SampleViewController.swift */,
 				7A6808B8221FFFF1004FEADC /* Assets.xcassets */,
 				7A6808BA221FFFF1004FEADC /* LaunchScreen.storyboard */,
 				7A6808BD221FFFF1004FEADC /* Info.plist */,
@@ -231,6 +237,7 @@
 			files = (
 				7A6808BC221FFFF1004FEADC /* LaunchScreen.storyboard in Resources */,
 				7A6808B9221FFFF1004FEADC /* Assets.xcassets in Resources */,
+				7A6808E02220000D004FEADC /* Sample.storyboard in Resources */,
 				7A6808B7221FFFEF004FEADC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +265,7 @@
 			files = (
 				7A6808B4221FFFEF004FEADC /* ViewController.swift in Sources */,
 				7A6808B2221FFFEF004FEADC /* AppDelegate.swift in Sources */,
+				7A6808E22220002B004FEADC /* SampleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

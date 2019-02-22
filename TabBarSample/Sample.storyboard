@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lIa-e5-YJX">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Sample View Controller-->
+        <scene sceneID="NLy-iR-KUA">
+            <objects>
+                <viewController storyboardIdentifier="SampleViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="lIa-e5-YJX" customClass="SampleViewController" customModule="TabBarSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZHJ-ep-yzG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rTD-xI-Gdu">
+                                <rect key="frame" x="32" y="321.5" width="311" height="44"/>
+                                <color key="backgroundColor" red="0.8286132812" green="0.18567720809999999" blue="0.30945941919999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="9pK-oN-BPS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="戻る">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="close" destination="lIa-e5-YJX" eventType="touchUpInside" id="c1q-fH-Jpk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Wmh-9c-Bkb" firstAttribute="trailing" secondItem="rTD-xI-Gdu" secondAttribute="trailing" constant="32" id="57Z-bl-gyD"/>
+                            <constraint firstItem="rTD-xI-Gdu" firstAttribute="centerY" secondItem="Wmh-9c-Bkb" secondAttribute="centerY" id="LVj-9t-8SB"/>
+                            <constraint firstItem="rTD-xI-Gdu" firstAttribute="centerX" secondItem="Wmh-9c-Bkb" secondAttribute="centerX" id="SYU-ce-qqe"/>
+                            <constraint firstItem="rTD-xI-Gdu" firstAttribute="leading" secondItem="Wmh-9c-Bkb" secondAttribute="leading" constant="32" id="n2c-Wl-6P6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Wmh-9c-Bkb"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pc6-gv-4pa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="176.80000000000001" y="74.212893553223395"/>
+        </scene>
+    </scenes>
+</document>
